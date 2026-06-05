@@ -1,0 +1,8 @@
+{
+    "network": "192.168.1.0/24",
+    "ports": "21,22,25,53,80,110,143,443,445,3306,3389,5432,6379,8080",
+    "rate": 5000,
+
+    "telegram_token": "YOUR_BOT_TOKEN",
+    "telegram_chat_id": "YOUR_CHAT_ID"
+}
