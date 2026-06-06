@@ -1,5 +1,5 @@
 {
-    "network": "192.168.1.0/24",
+    "network": "192.168.31.0/24",
     "ports": "21,22,25,80,110,143,443,445,3306,5432,6379,8080",
     "rate": 1000,
     "masscan_path": "C:\\tools\\masscan\\masscan64.exe",
@@ -9,17 +9,19 @@
     "notifiers": {
         "telegram": {
             "enabled": false,
-            "token": "",
-            "chat_id": ""
+            "token": "0000000000:00000000000000000000000000000000000",
+            "chat_id": "000000000"
         },
         "email": {
             "enabled": false,
-            "smtp_host": "",
+            "smtp_host": "smtp.yandex.ru",
             "smtp_port": 465,
-            "username": "",
-            "password": "",
-            "from_addr": "",
-            "to_addrs": [],
+            "username": "test@yandex.ru",
+            "password": "gexnftfvknhsbdhj",
+            "from_addr": "test@yandex.ru",
+            "to_addrs": [
+                "test2@yandex.ru"
+            ],
             "use_tls": true
         }
     }
